@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <GuestRequestKeySt>10000005</GuestRequestKeySt>
+  <HostingUnitKeySt>10000005</HostingUnitKeySt>
+  <OrderKeySt>10000003</OrderKeySt>
+  <Commission>10</Commission>
+  <CurrentProfit>120</CurrentProfit>
+  <DaysExpireOrder>60</DaysExpireOrder>
+  <DaysExpireGuestRequest>60</DaysExpireGuestRequest>
+  <LinkNorthAttractions>https://www.aquakef.com/</LinkNorthAttractions>
+  <LinkSouthAttractions>http://www.parktimna.co.il/</LinkSouthAttractions>
+  <LinkCenterAttractions>http://www.lunapark.co.il/</LinkCenterAttractions>
+  <LinkJerusalemAttractions>https://www.jerusalemzoo.org/</LinkJerusalemAttractions>
+  <FromMail>adi.giladi1@gmail.com</FromMail>
+  <PasswordMail>maroon 5</PasswordMail>
+</config>

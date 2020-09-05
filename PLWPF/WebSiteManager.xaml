@@ -1,0 +1,432 @@
+﻿<Window x:Class="PLWPF.WebSiteManager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="WebSite Manager" WindowState="Maximized" FontFamily="Palatino Linotype">
+    <Window.Resources>
+        <Style TargetType="Label" >
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="FontSize" Value="17"></Setter>
+            <Setter Property="VerticalAlignment" Value="Top"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+        <Style x:Key="RoundButtonTemplate" TargetType="Button">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="#FFF9A264"></Setter>
+            <Setter Property="Opacity" Value="1"></Setter>
+            <Setter Property="FontStyle" Value="Italic"></Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+            <Setter Property="BorderBrush" Value="Black"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="16" Background="{TemplateBinding Background}" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="CheckBox" >
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+            <Setter Property="Background" Value="White" ></Setter>
+            <Setter Property="BorderThickness" Value="3"></Setter>
+            <Setter Property="BorderBrush" Value="#FF2E84AC"></Setter>
+            <Setter Property="Width" Value="50"></Setter>
+            <Setter Property="Height" Value="60"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="Red" />
+                    <Setter Property="FontStyle" Value="Italic" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="White" ></Setter>
+            <Setter Property="Foreground" Value="#FF2E84AC"></Setter>
+            <Setter Property="BorderThickness" Value="3"></Setter>
+            <Setter Property="BorderBrush" Value="#FF2E84AC"></Setter>
+            <Setter Property="Height" Value="33"></Setter>
+            <Setter Property="Width" Value="150"></Setter>
+        </Style>
+        <Style TargetType="ComboBox" >
+            <Setter Property="Background" Value="#FF2E84AC" ></Setter>
+            <Setter Property="Foreground" Value="#FF2E84AC"></Setter>
+            <Setter Property="BorderThickness" Value="3"></Setter>
+            <Setter Property="Height" Value="31"></Setter>
+            <Setter Property="Width" Value="100"></Setter>
+            <Setter Property="BorderBrush" Value="#FF2E84AC"></Setter>
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="https://i.pinimg.com/originals/b0/a4/57/b0a457a8d3c1b16657d242aad9b1bbb4.jpg" Opacity="0.6"/>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="235*"/>
+        </Grid.RowDefinitions>
+        <Border x:Name="PasswordBorder" Grid.Row="1" Margin="0,1,0,0">
+            <Grid>
+                <Label Content="Password:" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="249,161,424.333,277.667" />
+                <PasswordBox x:Name="ManagerPass" Height="30" Width="200"  VerticalContentAlignment="Center"  KeyDown="Pass_KeyDown" Margin="246,183,314,229"/>
+                <Button Content="Enter" Click="BEnter_Click" Width="100"  Height="30" Margin="460,186,200,226" Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+            </Grid>
+        </Border>
+        <Border x:Name="WebSiteManagerAfterPassword" Grid.Row="0" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Menu FontSize="15" Height="35" HorizontalAlignment="Left" VerticalAlignment="Top" Width="340" Background="#FFF9A264" FontFamily="Palatino Linotype" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,0,-1" Foreground="White">
+                    <MenuItem Header="Queries Menu" Width="112" Foreground="White" >
+                        <MenuItem Header="Clients Querie" Click="MenuItemClients_Click" Foreground="White" Background="#FFF9A264"/>
+                        <MenuItem Header="Hosting Units Querie" Click="MenuItemHostingUnit_Click" Foreground="White" Background="#FFF9A264"/>
+                        <MenuItem Header="Orders Querie" Click="MenuItemOrders_Click" Foreground="White" Background="#FFF9A264"/>
+                    </MenuItem>
+                    <MenuItem Header="Settings" Width="100" Foreground="White" Background="#FFF9A264" >
+                        <MenuItem Header="Change Password" Click="ChangePass_Click" Foreground="White" Background="#FFF9A264"/>
+                        <MenuItem Header="Constant Data" Click="information_Click" Foreground="White" Background="#FFF9A264"/>
+                        <MenuItem Header="Attractions Links" Click="Links_Click" Foreground="White" Background="#FFF9A264"/>
+                    </MenuItem>
+                    <MenuItem Header="Data" Click="MenuItem_Click"/>
+                </Menu>
+                <Button Content="Log Out" Grid.Column="1" HorizontalAlignment="Right" Margin="402,0,0,0" VerticalAlignment="Top" Width="80" Height="35" Click="LogOut_Click" Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" />
+            </Grid>
+        </Border>
+        <Border x:Name="DataBorder" Grid.Row="1" Visibility="Collapsed" >
+            <TextBlock x:Name="InfTxtB" Grid.Row="1" Text=" " HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="400" Foreground="White" FontWeight="Bold" FontSize="30"/>
+        </Border>
+                
+        <Border x:Name="Setting_pass"  Grid.Row="1" Visibility="Collapsed" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="12*"/>
+                    <RowDefinition Height="45*"/>
+                    <RowDefinition Height="55*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Change Password" HorizontalAlignment="Left"  Grid.Row="0" VerticalAlignment="Center" FontSize="20"/>
+                <Label Content="Current Password:" HorizontalAlignment="Right" Grid.Row="1" VerticalAlignment="Bottom" Height="33" Width="158"/>
+                <Label Content="New Password:" HorizontalAlignment="Right" Grid.Row="2" VerticalAlignment="Top" Height="33" Width="136"  />
+                <TextBox HorizontalAlignment="Left" Height="33" Grid.Row="1" Text="{Binding Old}" VerticalAlignment="Bottom" Width="120" Grid.Column="1" Margin="0,0,0,3"/>
+                <TextBox HorizontalAlignment="Left" Height="33"  Grid.Row="2" TextWrapping="Wrap" Text="{Binding New}" VerticalAlignment="Top" Width="120" Grid.Column="1" Margin="0,4,0,0"/>
+                <Button Content="Change"  Grid.Row="2" Height="30" Width="250" Grid.ColumnSpan="2" Click="ButtonChange_Click" Style="{StaticResource RoundButtonTemplate}" Margin="246,47,265.333,159.333" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+            </Grid>
+        </Border>
+
+
+        <Border x:Name="ConstantData" Grid.Row="1" Visibility="Collapsed" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="262*"/>
+                    <ColumnDefinition Width="60*"/>
+                    <ColumnDefinition Width="398*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="The days expired of order:" HorizontalAlignment="Right"  VerticalAlignment="Bottom" Width="240" Grid.Column="0" Grid.Row="0" Height="33"/>
+                <Label Content="The days expired of guest request:" HorizontalAlignment="Right"  VerticalAlignment="Center" Width="270" Grid.Column="0" Grid.Row="1" Height="33"/>
+                <Label Content="The tax of each day:" HorizontalAlignment="Right"  VerticalAlignment="Top"
+                       Width="180" Grid.Column="0" Grid.Row="2" Height="33"/>
+                <TextBox x:Name="DaysExTxtB" HorizontalAlignment="Center" Height="30" VerticalAlignment="Bottom" Width="70" Grid.Row="0" Grid.Column="1" />
+                <TextBox x:Name="CommisionTxtB" HorizontalAlignment="Center" Height="30" VerticalAlignment="Top" Width="70" Grid.Row="2" Grid.Column="1"/>
+                <TextBox x:Name="DaysEx2TxtB" HorizontalAlignment="Center" Height="30" VerticalAlignment="Center" Width="70" Grid.Row="1" Grid.Column="1"/>
+                <Button x:Name="DaysExB" Content="Change" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="80" Height="35" Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Grid.Column="2" Grid.Row="0" Click="DaysExB_Click" />
+                <Button x:Name="CommisionB" Content="Change" HorizontalAlignment="Left" VerticalAlignment="Top" Width="80" Height="35" Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Grid.Column="2" Grid.Row="2" Click="CommisionB_Click"/>
+                <Button x:Name="DaysEx2B" Content="Change" HorizontalAlignment="Left" VerticalAlignment="Center" Width="80" Height="35" Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Grid.Column="2" Grid.Row="1" Click="DaysEx2B_Click"/>
+            </Grid>
+        </Border>
+
+
+        <Border x:Name="QClients"  Grid.Row="1" Visibility="Collapsed" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="29*"/>
+                    <RowDefinition Height="195*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22*"/>
+                    <ColumnDefinition Width="195*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Sort By:"  Grid.Row="0" FontSize="22" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="0"/>
+                <ComboBox x:Name="ClientQcmb" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left">
+                    <ComboBoxItem Content="Area" TabIndex="0"/>
+                    <ComboBoxItem Content="Num of Vacationers" TabIndex="1"/>
+                    <ComboBoxItem Content="Type of Hosting Unit" TabIndex="2"/>
+                    <ComboBoxItem Content="Status" TabIndex="3"/>
+                </ComboBox>
+                <ListView Name="lvUsers" Grid.Row="1" Grid.ColumnSpan="2">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Private Name" Width="120" DisplayMemberBinding="{Binding PrivateName}" />
+                            <GridViewColumn Header="Family Name" Width="120" DisplayMemberBinding="{Binding FamilyName}" />
+                            <GridViewColumn Header="Mail Address" Width="120" DisplayMemberBinding="{Binding MailAddress}" />
+                            <GridViewColumn Header="Status" Width="120" DisplayMemberBinding="{Binding Status}" />
+                            <GridViewColumn Header="Registration Date" Width="120" DisplayMemberBinding="{Binding RegistrationDate}" />
+                            <GridViewColumn Header="Entry Date" Width="120" DisplayMemberBinding="{Binding EntryDate}" />
+                            <GridViewColumn Header="Release Date" Width="120" DisplayMemberBinding="{Binding ReleaseDate}" />
+                            <GridViewColumn Header="Type" Width="120" DisplayMemberBinding="{Binding Type}" />
+                            <GridViewColumn Header="Adults" Width="120" DisplayMemberBinding="{Binding Adults}" />
+                            <GridViewColumn Header="Children" Width="120" DisplayMemberBinding="{Binding Children}" />
+                            <GridViewColumn Header="Pool" Width="120" DisplayMemberBinding="{Binding Pool}" />
+                            <GridViewColumn Header="Jacuzzi" Width="120" DisplayMemberBinding="{Binding Jacuzzi}" />
+                            <GridViewColumn Header="Garden" Width="120" DisplayMemberBinding="{Binding Garden}" />
+                        </GridView>
+                    </ListView.View>
+
+                    <ListView.GroupStyle>
+                        <GroupStyle>
+                            <GroupStyle.ContainerStyle>
+                                <Style TargetType="{x:Type GroupItem}">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate>
+                                                <Expander IsExpanded="True">
+                                                    <Expander.Header>
+                                                        <StackPanel Orientation="Horizontal">
+                                                            <TextBlock x:Name="GroupName" Text="{Binding Name}" FontWeight="Bold" Foreground="Gray" FontSize="18" VerticalAlignment="Bottom" />
+                                                            <TextBlock Text="{Binding ItemCount}" FontSize="18" Foreground="Green" FontWeight="Bold" FontStyle="Italic" Margin="10,0,0,0" VerticalAlignment="Bottom" />
+                                                            <TextBlock Text=" Client(s)" FontSize="18" Foreground="Silver" FontStyle="Italic" VerticalAlignment="Bottom" />
+                                                        </StackPanel>
+                                                    </Expander.Header>
+                                                    <ItemsPresenter />
+                                                </Expander>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </GroupStyle.ContainerStyle>
+                        </GroupStyle>
+                    </ListView.GroupStyle>
+                </ListView>
+            </Grid>
+        </Border>
+        <Border x:Name="HostingUnitQ" Grid.Row="1" Visibility="Collapsed" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="29*"/>
+                    <RowDefinition Height="195*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22*"/>
+                    <ColumnDefinition Width="195*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Sort By:"  Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="22"/>
+                <ComboBox x:Name="Hucmb" SelectionChanged="ComboBox2_SelectionChanged" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Center" >
+                    <ComboBoxItem Content="Area" TabIndex="0"/>
+                    <ComboBoxItem Content="Type" TabIndex="1"/>
+                    <ComboBoxItem Content="num of hosting unit to host" TabIndex="2"/>
+                </ComboBox>
+                <Border x:Name="HUByAreaQ" Margin="0,0,0,0" Grid.Row="1"  Visibility="Collapsed" Grid.ColumnSpan="2">
+                    <ListView Name="lvHostingUnits" Grid.Row="1">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Hosting Unit Name" Width="120" DisplayMemberBinding="{Binding HostingUnitName}" />
+                                <GridViewColumn Header="Private Name" Width="120" DisplayMemberBinding="{Binding Owner.PrivateName}" />
+                                <GridViewColumn Header="Family Name" Width="120" DisplayMemberBinding="{Binding Owner.FamilyName}" />
+                                <GridViewColumn Header="Mail Address" Width="120" DisplayMemberBinding="{Binding Owner.MailAddress}" />
+                                <GridViewColumn Header="ID" Width="120" DisplayMemberBinding="{Binding Owner.HostKey}" />
+                                <GridViewColumn Header="Phone Number" Width="120" DisplayMemberBinding="{Binding Owner.PhoneNumber}" />
+                                <GridViewColumn Header="Area" Width="120" DisplayMemberBinding="{Binding Area}" />
+                                <GridViewColumn Header="Type" Width="120" DisplayMemberBinding="{Binding TypeOfHostingUnit}" />
+                                <GridViewColumn Header="Pool" Width="120" DisplayMemberBinding="{Binding Pool}" />
+                                <GridViewColumn Header="Jacuzzi" Width="120" DisplayMemberBinding="{Binding Jacuzzi}" />
+                                <GridViewColumn Header="Garden" Width="120" DisplayMemberBinding="{Binding Garden}" />
+                            </GridView>
+                        </ListView.View>
+                        <ListView.GroupStyle>
+                            <GroupStyle>
+                                <GroupStyle.ContainerStyle>
+                                    <Style TargetType="{x:Type GroupItem}">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate>
+                                                    <Expander IsExpanded="True">
+                                                        <Expander.Header>
+                                                            <StackPanel Orientation="Horizontal">
+                                                                <TextBlock x:Name="GroupName" Text="{Binding Name}" FontWeight="Bold" Foreground="Gray" FontSize="18" VerticalAlignment="Bottom" />
+                                                                <TextBlock Text="{Binding ItemCount}" FontSize="18" Foreground="Green" FontWeight="Bold" FontStyle="Italic" Margin="10,0,0,0" VerticalAlignment="Bottom" />
+                                                                <TextBlock Text=" Hosting Unit(s)" FontSize="18" Foreground="Silver" FontStyle="Italic" VerticalAlignment="Bottom" />
+                                                            </StackPanel>
+                                                        </Expander.Header>
+                                                        <ItemsPresenter />
+                                                    </Expander>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </GroupStyle.ContainerStyle>
+                            </GroupStyle>
+                        </ListView.GroupStyle>
+                    </ListView>
+                </Border>
+                <Border x:Name="GroupingByHosts" Grid.Row="1" Grid.ColumnSpan="2" >
+                    <Grid>
+                        <ItemsControl x:Name="ICGByHosts">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <HeaderedContentControl Header="{Binding Path=Key}">
+                                        <ItemsControl ItemsSource="{Binding Path=.}">
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid Height="30">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <TextBox x:Name="PrivateName" IsReadOnly="True" Text="{Binding PrivateName}" Grid.Column="0"/>
+                                                        <TextBox x:Name="FamilyName" IsReadOnly="True" Text="{Binding FamilyName}"  Grid.Column="1"/>
+                                                        <TextBox x:Name="ID" IsReadOnly="True" Text="{Binding HostKey}"  Grid.Column="2"/>
+                                                        <TextBox x:Name="MailAddress" IsReadOnly="True" Text="{Binding MailAddress}"  Grid.Column="3"/>
+                                                        <TextBox x:Name="PhoneNumber" IsReadOnly="True" Text="{Binding PhoneNumber}"  Grid.Column="4" />
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </HeaderedContentControl>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+        <Border x:Name="OrderQ" Grid.Row="1" Visibility="Collapsed"  >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="29*"/>
+                    <RowDefinition Height="195*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="22*"/>
+                    <ColumnDefinition Width="195*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Sort By:"  Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="22"/>
+                <TextBlock x:Name="priffitTxtB"  Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Right" FontSize="22" Grid.Column="1" Foreground="White"/>
+                <ComboBox x:Name="ordcmb" SelectionChanged="ComboBox3_SelectionChanged" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Left" >
+                    <ComboBoxItem Content="All" TabIndex="0"/>
+                    <ComboBoxItem Content="Status" TabIndex="1"/>
+                    <ComboBoxItem Content="Month Create Order" TabIndex="2"/>
+                    <ComboBoxItem Content="Hosting Unit" TabIndex="3"/>
+                </ComboBox>
+                <Border x:Name="ordGrouping" Margin="0,0,0,0" Grid.Row="1" Visibility="Collapsed" Grid.ColumnSpan="2" >
+                    <ListView Name="lvOrders" Grid.Row="1">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Order Key" Width="120" DisplayMemberBinding="{Binding OrderKey}" />
+                                <GridViewColumn Header="Create Date" Width="120" DisplayMemberBinding="{Binding CreateDate}" />
+                                <GridViewColumn Header="Order Date" Width="120" DisplayMemberBinding="{Binding OrderDate}" />
+                                <GridViewColumn Header="Status" Width="120" DisplayMemberBinding="{Binding Status}" />
+                            </GridView>
+                        </ListView.View>
+                        <ListView.GroupStyle>
+                            <GroupStyle>
+                                <GroupStyle.ContainerStyle>
+                                    <Style TargetType="{x:Type GroupItem}">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate>
+                                                    <Expander IsExpanded="True">
+                                                        <Expander.Header>
+                                                            <StackPanel Orientation="Horizontal">
+                                                                <TextBlock x:Name="GroupName" Text="{Binding Name}" FontWeight="Bold" Foreground="Gray" FontSize="18" VerticalAlignment="Bottom" />
+                                                                <TextBlock Text="{Binding ItemCount}" FontSize="18" Foreground="Green" FontWeight="Bold" FontStyle="Italic" Margin="10,0,0,0" VerticalAlignment="Bottom" />
+                                                                <TextBlock Text=" Order(s)" FontSize="18" Foreground="Silver" FontStyle="Italic" VerticalAlignment="Bottom" />
+                                                            </StackPanel>
+                                                        </Expander.Header>
+                                                        <ItemsPresenter />
+                                                    </Expander>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </GroupStyle.ContainerStyle>
+                            </GroupStyle>
+                        </ListView.GroupStyle>
+                    </ListView>
+                </Border>
+                <Border x:Name="GroupingByFunctions" Grid.Row="1" Visibility="Collapsed" Grid.ColumnSpan="2">
+                    <Grid>
+                        <ItemsControl x:Name="IOrdG">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <HeaderedContentControl Header="{Binding Path=Key}">
+                                        <ItemsControl ItemsSource="{Binding Path=.}">
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <Grid Height="30">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                            <ColumnDefinition Width="*"/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <TextBox x:Name="OrderKey" IsReadOnly="True" Width="140" Text="{Binding OrderKey}" Grid.Column="0"/>
+                                                        <TextBox x:Name="CreateDate" IsReadOnly="True" Width="140" Text="{Binding CreateDate}" Grid.Column="1"/>
+                                                        <TextBox x:Name="OrderDate" IsReadOnly="True" Width="140" Text="{Binding OrderDate}" Grid.Column="2" />
+                                                        <TextBox x:Name="Status" IsReadOnly="True" Width="140" Text="{Binding Status}" Grid.Column="3"/>
+                                                    </Grid>
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </HeaderedContentControl>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+
+        <Border x:Name="Change_Links" Grid.Row="1" Visibility="Collapsed">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="6*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2.5*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="Attractions Links" Grid.Column="0" Grid.Row="0" FontSize="35" FontStyle="Italic" FontWeight="Bold" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <Label Content="Notrth:" Grid.Column="0" Grid.Row="0" VerticalAlignment="Bottom" HorizontalAlignment="Right" />
+                <Label Content="Center:" Grid.Column="0" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" />
+                <Label Content="Jerusalem:" Grid.Column="0" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" />
+                <Label Content="South:" Grid.Column="0" Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,7.667,0.333,0" />
+                <TextBox x:Name="NorthLTextBox" Grid.Column="1" Grid.Row="0" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="220" />
+                <TextBox x:Name="CenterLTextBox" Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="220"/>
+                <TextBox x:Name="JerusalemLTextBox" Grid.Column="1" Grid.Row="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="220"/>
+                <TextBox x:Name="SouthLTextBox" Grid.Row="3" VerticalAlignment="Top" HorizontalAlignment="Right" Grid.ColumnSpan="2" Margin="0,7.667,0,0" Width="220" />
+                <Button x:Name="Change_linksB" Content="Change" HorizontalAlignment="Right" VerticalAlignment="Top" Width="130" Height="35" Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Grid.Row="4" Grid.Column="1" Click="Change_linksB_Click"/>
+                <Button x:Name="Cancel_linksB" Content="Cancel" HorizontalAlignment="Right" VerticalAlignment="Top" Width="130" Height="35" Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" Grid.Row="4" Grid.Column="0" Click="Cancel_linksB_Click" Grid.ColumnSpan="2" Margin="0,0,132.333,0"/>
+
+            </Grid>
+        </Border>
+
+
+    </Grid>
+</Window>

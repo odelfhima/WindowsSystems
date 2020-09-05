@@ -1,0 +1,18 @@
+D:\Project02_7415_2722_dotNet5780\BE\bin\Release\BE.dll.config
+D:\Project02_7415_2722_dotNet5780\BE\bin\Release\BE.dll
+D:\Project02_7415_2722_dotNet5780\BE\bin\Release\BE.pdb
+D:\Project02_7415_2722_dotNet5780\BE\obj\Release\BE.csproj.CoreCompileInputs.cache
+D:\Project02_7415_2722_dotNet5780\BE\obj\Release\BE.dll
+D:\Project02_7415_2722_dotNet5780\BE\obj\Release\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\bin\Release\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\bin\Release\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\bin\Release\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Release\BE.csproj.CoreCompileInputs.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Release\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Release\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Release\BE.csprojAssemblyReference.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\bin\Release\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\bin\Release\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\bin\Release\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\obj\Release\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\obj\Release\BE.pdb

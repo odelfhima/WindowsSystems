@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="PLWPF.NumericUpDownControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PLWPF"
+             mc:Ignorable="d" Width="140" Height="50">
+    <UserControl.Resources>
+        <Style x:Key="RoundButtonTemplate" TargetType="Button">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="#FFF9A264"></Setter>
+            <Setter Property="Opacity" Value="1"></Setter>
+            <Setter Property="FontStyle" Value="Italic"></Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+            <Setter Property="BorderBrush" Value="Black"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="16" Background="{TemplateBinding Background}" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid Name="NumericSP" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1.5*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="cmdUp" Content="-" Click="cmdDown_Click" Grid.Column="0" Margin="3" HorizontalContentAlignment="Center" Style="{StaticResource RoundButtonTemplate}"/>
+        <TextBox x:Name="txtNum" HorizontalContentAlignment="Center" Margin="3" TextChanged="txtNum_TextChanged" Grid.Column="1" />
+        <Button x:Name="cmdDown" Content="+" Click="cmdUp_Click" Grid.Column="2" Margin="3" HorizontalContentAlignment="Center" Style="{StaticResource RoundButtonTemplate}"/>
+    </Grid>
+</UserControl>

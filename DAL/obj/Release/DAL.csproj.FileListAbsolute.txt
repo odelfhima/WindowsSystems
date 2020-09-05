@@ -1,0 +1,40 @@
+D:\Project02_7415_2722_dotNet5780\DAL\bin\Release\DAL.dll.config
+D:\Project02_7415_2722_dotNet5780\DAL\bin\Release\DAL.dll
+D:\Project02_7415_2722_dotNet5780\DAL\bin\Release\DAL.pdb
+D:\Project02_7415_2722_dotNet5780\DAL\bin\Release\BE.dll
+D:\Project02_7415_2722_dotNet5780\DAL\bin\Release\DS.dll
+D:\Project02_7415_2722_dotNet5780\DAL\bin\Release\BE.pdb
+D:\Project02_7415_2722_dotNet5780\DAL\bin\Release\BE.dll.config
+D:\Project02_7415_2722_dotNet5780\DAL\bin\Release\DS.pdb
+D:\Project02_7415_2722_dotNet5780\DAL\bin\Release\DS.dll.config
+D:\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.dll
+D:\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\bin\Release\DAL.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\bin\Release\DAL.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\bin\Release\DAL.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\bin\Release\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\bin\Release\DS.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\bin\Release\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\bin\Release\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\bin\Release\DS.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\bin\Release\DS.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.csproj.CopyComplete
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\bin\Release\DAL.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\bin\Release\DAL.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\bin\Release\DAL.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\bin\Release\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\bin\Release\DS.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\bin\Release\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\bin\Release\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\bin\Release\DS.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\bin\Release\DS.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\DAL\obj\Release\DAL.pdb

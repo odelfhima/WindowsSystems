@@ -1,0 +1,101 @@
+﻿<Window x:Class="PLWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PLWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowState="Maximized" Icon="https://img.favpng.com/5/18/15/resort-accommodation-island-beach-hotel-png-favpng-ChjunM7ptYG60yA72zjsvzmuF.jpg">
+    <Window.Resources>
+        <Style x:Key="RoundButtonTemplate" TargetType="Button">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="#FFF9A264"></Setter>
+            <Setter Property="Opacity" Value="1"></Setter>
+            <Setter Property="FontStyle" Value="Italic"></Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+            <Setter Property="BorderBrush" Value="Black"></Setter>
+            <Setter Property="Width" Value="270"></Setter>
+            <Setter Property="Height" Value="50"></Setter>
+            <Setter Property="FontSize" Value="120"></Setter>
+            <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="20" Background="{TemplateBinding Background}" BorderThickness="1">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center">
+
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Label" >
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="https://i.pinimg.com/originals/b0/a4/57/b0a457a8d3c1b16657d242aad9b1bbb4.jpg" Opacity="0.9"/>
+    </Window.Background>
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1.2*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="guestrequestButton" Content="Guest Request"  
+         FontSize="30" Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Click="guestrequestButton_Click" Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+
+            <Button x:Name="hostingunitButton" Content="Hosting Unit"  
+         FontSize="30" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Click="hostingunitButton_Click"  Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+
+            <Button x:Name="websitemanagerButton" Content="Web Site Manager"  
+        VerticalAlignment="Top" HorizontalAlignment="Left" FontSize="30" Grid.Row="3" Click="websitemanagerButton_Click"  Style="{StaticResource RoundButtonTemplate}" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+
+            <Label Content="Welcome to the big Vacation Site! " HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Foreground="White" FontStyle="Italic" FontSize="50"/>
+            <TextBlock x:Name="AboutTxt" Grid.Column="3" Grid.Row="3" Grid.RowSpan="4" Text="About Us:" FontSize="16" FontWeight="Bold" Foreground="White" TextAlignment="Center">
+                <TextBlock.Background>
+                    <SolidColorBrush Color="#FFF9A264" Opacity="0.65"/>
+                </TextBlock.Background>
+            </TextBlock>
+            <Grid Grid.Column="1" Grid.Row="6" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Label Content="Attractions:" Grid.Column="0" Grid.RowSpan="2" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="22" Margin="0,22,0,14.667"/>
+                <Label Content="North" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="1"/>
+                <Label Content="Center" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="2"/>
+                <Label Content="Jerusalem" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="4"/>
+                <Label Content="South" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.Column="3"/>
+                <Image x:Name="NI" Tag="North" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Height="45" Width="45" Grid.Column="1" MouseUp="NI_MouseUp" MouseEnter="MyMouseEnter" MouseLeave="MyMouseLeave"/>
+                <Image x:Name="CI" Tag="Center" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="45" Width="45" Grid.Column="2" MouseUp="CI_MouseUp" MouseEnter="MyMouseEnter" MouseLeave="MyMouseLeave"/>
+                <Image x:Name="JI" Tag="Jerusalem" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="45" Width="45" Grid.Column="4" MouseUp="JI_MouseUp" MouseEnter="MyMouseEnter" MouseLeave="MyMouseLeave"/>
+                <Image x:Name="SI" Tag="South" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Height="45" Width="45" Grid.Column="3" Margin="6,0,0,0" MouseUp="SI_MouseUp" MouseEnter="MyMouseEnter" MouseLeave="MyMouseLeave"/>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Window>

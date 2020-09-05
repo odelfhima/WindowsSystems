@@ -1,0 +1,95 @@
+Z:\Project 5780\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+Z:\Project 5780\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+Z:\Project 5780\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+Z:\Project 5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+Z:\Project 5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+Z:\Project 5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+Z:\Project 5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\c#\Project 5780\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\c#\Project 5780\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\c#\Project 5780\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\c#\Project 5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\c#\Project 5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\c#\Project 5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+Z:\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+Z:\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+Z:\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+Z:\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+Z:\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+Z:\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+Z:\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+Z:\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+Z:\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+Z:\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+Z:\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+Z:\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+Z:\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+C:\Users\agiladi\Downloads\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\Users\agiladi\Downloads\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\Users\agiladi\Downloads\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Users\agiladi\Downloads\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\agiladi\Downloads\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\Users\agiladi\Downloads\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+C:\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+Z:\final project\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+Z:\final project\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+Z:\final project\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+Z:\final project\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csprojAssemblyReference.cache
+Z:\final project\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+Z:\final project\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+Z:\final project\Project02_7415_2722_dotNet5780 26 jen\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+C:\Users\ofhima\Desktop\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\Users\ofhima\Desktop\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\Users\ofhima\Desktop\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Users\ofhima\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\ofhima\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\Users\ofhima\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+C:\Users\ofhima\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\Users\adigi\OneDrive\שולחן העבודה\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+D:\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+D:\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+D:\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+D:\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+D:\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+D:\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\bin\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\BE\obj\Debug\BE.pdb

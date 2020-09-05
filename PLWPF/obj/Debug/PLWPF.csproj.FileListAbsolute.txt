@@ -1,0 +1,86 @@
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BL.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DAL.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DS.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BL.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BL.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DAL.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DAL.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DS.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DS.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\AddNewOrder.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GuestRequest.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GuestRequestUserControl.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\HostingUnit.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\MessageSuccess.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\NumericUpDownControl.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\WebSiteManager.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\App.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\AddNewOrder.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GuestRequest.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GuestRequestUserControl.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\HostingUnit.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\MessageSuccess.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\NumericUpDownControl.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\WebSiteManager.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780 22\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\PLWPF.exe.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\PLWPF.exe
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\PLWPF.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BE.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BL.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DAL.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DS.dll
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BE.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BE.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BL.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\BL.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DAL.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DAL.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DS.pdb
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\bin\Debug\DS.dll.config
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.csprojResolveAssemblyReference.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\AddNewOrder.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GuestRequest.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GuestRequestUserControl.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\HostingUnit.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\MainWindow.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\MessageSuccess.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\NumericUpDownControl.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\WebSiteManager.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\App.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF_MarkupCompile.lref
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\AddNewOrder.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GuestRequest.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\GuestRequestUserControl.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\HostingUnit.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\MainWindow.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\MessageSuccess.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\NumericUpDownControl.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\UpdateHostingUnit.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\WebSiteManager.baml
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.g.resources
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.Properties.Resources.resources
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.csproj.GenerateResource.Cache
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.exe
+C:\Users\agiladi\Desktop\Project02_7415_2722_dotNet5780\Project02_7415_2722_dotNet5780\PLWPF\obj\Debug\PLWPF.pdb
